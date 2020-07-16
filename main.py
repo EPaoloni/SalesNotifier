@@ -46,8 +46,7 @@ def sendIndividualEmail():
     if email is not "":
         htmlMessage = salesNotifierModel.buildEmailMessage()
 
-        if htmlMessage == null:
-            logger.info('There are no games on sale')
+        if htmlMessage == None:
             return('There are no games on sale')
 
         mailSender.sendMail(htmlMessage, email)
