@@ -87,7 +87,7 @@ def buildEmailMessage():
     gameList = searchGamesOnSale()
 
     if gameList['games'] == []:
-        return null
+        return None
 
     htmlMessage = createGamesTableHTML(gameList)
     return htmlMessage
