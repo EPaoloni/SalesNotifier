@@ -2,3 +2,4 @@ logs/
 resources/receiversAddress.json
 resources/ReferenceGameList.json
 resources/config/config.json
+__pycache__/

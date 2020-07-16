@@ -20,7 +20,7 @@ def home():
 def sendEmailToEveryone():
     htmlMessage = salesNotifierModel.buildEmailMessage()
 
-    if htmlMessage == null:
+    if htmlMessage is None:
         logger.info('There are no games on sale')
         return('There are no games on sale')
 
@@ -56,8 +56,8 @@ def sendIndividualEmail():
         errorMessage = "There was an error sending the email"
     return render_template('index.html', message=successMessage, error=errorMessage)
 
-@app.route('/logs')
-def printLogs():
+# @app.route('/logs')
+# def printLogs():
     
 
 
