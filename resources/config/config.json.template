@@ -1,0 +1,5 @@
+{
+    "account-gmail": "example@example.com",
+    "password-gmail": "",
+    "log-file-path": "app.log"
+}
