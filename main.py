@@ -1,4 +1,3 @@
-import log
 import mailSender
 import salesNotifierModel
 
@@ -7,8 +6,6 @@ from flask import render_template
 from flask import Flask
 
 app = Flask(__name__)
-
-logger = log.setup_custom_logger('root')
 
 
 @app.route('/')
@@ -21,19 +18,12 @@ def sendEmailToEveryone():
     htmlMessage = salesNotifierModel.buildEmailMessage()
 
     if htmlMessage is None:
-        logger.info('There are no games on sale')
         return('There are no games on sale')
 
-    logger.info('Getting address list')
     receiversAddress = salesNotifierModel.getReceiversAddressList()
 
-    logger.info('Starting to send emails')
     for email in receiversAddress:
-        logger.info('Sending mail to: ' + email['Address'])
         mailSender.sendMail(htmlMessage, email['Address'])
-        logger.info('Mail to ' + email['Address'] + ' sent')
-
-    logger.info('Execution finished')
 
     return('Execution finished')
 
@@ -54,10 +44,6 @@ def sendIndividualEmail():
     else:
         errorMessage = "There was an error sending the email"
     return render_template('index.html', message=successMessage, error=errorMessage)
-
-# @app.route('/logs')
-# def printLogs():
-    
 
 
 @app.route('/add-email-to-list')
