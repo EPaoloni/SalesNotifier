@@ -1,0 +1,102 @@
+{
+  "endpoint": "https://ec.nintendo.com/api/US/en/search/ranking?count=1&offset=0",
+  "result": {
+    "contents": [
+      {
+        "content_type": "title",
+        "dominant_colors": [
+          "6abffd",
+          "4f2b13",
+          "d44a33"
+        ],
+        "formal_name": "Animal Crossing™: New Horizons",
+        "hero_banner_url": "https://img-eshop.cdn.nintendo.net/i/9989957eae3a6b545194c42fec2071675c34aadacd65e6b33fdfe7b3b6a86c3a.jpg",
+        "id": 70010000027619,
+        "is_new": false,
+        "membership_required": false,
+        "public_status": "public",
+        "rating_info": {
+          "content_descriptors": [
+            {
+              "id": 9,
+              "name": "Comic Mischief",
+              "type": "descriptor"
+            },
+            {
+              "id": 98,
+              "name": "Users Interact",
+              "type": "interactive"
+            },
+            {
+              "id": 105,
+              "name": "In-Game Purchases",
+              "type": "interactive"
+            }
+          ],
+          "rating": {
+            "age": 6,
+            "id": 2,
+            "image_url": "https://img-eshop.cdn.nintendo.net/i/d96122dbb89250582816a67461bf8080f030402720e46032980582bca516778d.jpg",
+            "name": "E",
+            "svg_image_url": "https://img-eshop.cdn.nintendo.net/i/46eb70b11307f05cacc1248b54b18a846be5cdf0414c53f620cb663e5bf942a6.svg"
+          },
+          "rating_system": {
+            "id": 202,
+            "name": "ESRB"
+          }
+        },
+        "release_date_on_eshop": "2020-03-20",
+        "screenshots": [
+          {
+            "images": [
+              {
+                "url": "https://img-eshop.cdn.nintendo.net/i/7fc07891c0afe606c5c26f7d89252798ff2495d45d8d97e91041f38347cd0805.jpg"
+              }
+            ]
+          },
+          {
+            "images": [
+              {
+                "url": "https://img-eshop.cdn.nintendo.net/i/e9591ce1819f68fa71874c85fb33c7881be0531b3774103f9d0bcf40ef774dbd.jpg"
+              }
+            ]
+          },
+          {
+            "images": [
+              {
+                "url": "https://img-eshop.cdn.nintendo.net/i/1f6f96d8f546c594ee71baad78f0bc13db7a8cad04096138daff49712b5366c0.jpg"
+              }
+            ]
+          },
+          {
+            "images": [
+              {
+                "url": "https://img-eshop.cdn.nintendo.net/i/f28f53b383ba88f43eb5e94b2e84405776b9193d201932a31d40db7367608fcd.jpg"
+              }
+            ]
+          },
+          {
+            "images": [
+              {
+                "url": "https://img-eshop.cdn.nintendo.net/i/2f6a5666f8421a74cb4f31d41a91abcb0dd90fc9a9495b985b182358e6ab9c3a.jpg"
+              }
+            ]
+          },
+          {
+            "images": [
+              {
+                "url": "https://img-eshop.cdn.nintendo.net/i/13cbcaf110c837563e279a0361e1f2f07c12d99e301681980a0e11d7937a50ad.jpg"
+              }
+            ]
+          }
+        ],
+        "strong_disclaimer": "*Nintendo Switch Online membership (sold separately) and Nintendo Account required for online features. Not available in all countries. Internet access required for online features. Terms apply. nintendo.com/switch-online\n\n**Additional games, systems and/or accessories may be required for multiplayer mode. Games, systems and some accessories sold separately.\n\n",
+        "tags": [],
+        "target_titles": []
+      }
+    ],
+    "length": 1,
+    "offset": 0,
+    "total": 50
+  }
+}

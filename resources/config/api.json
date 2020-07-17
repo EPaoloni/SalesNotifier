@@ -1,0 +1,22 @@
+{
+  "sale": {
+    "parameters": ["count", "offset"],
+    "arg": "https://ec.nintendo.com/api/AR/es/search/sales",
+    "usa": "https://ec.nintendo.com/api/US/en/search/sales"
+  },
+  "new": {
+    "parameters": ["count", "offset"],
+    "arg": "https://ec.nintendo.com/api/AR/es/search/new",
+    "usa": "https://ec.nintendo.com/api/US/en/search/new"
+  },
+  "price": {
+    "parameters": ["country", "ids", "lang"],
+    "arg": "https://api.ec.nintendo.com/v1/price?country=AR&ids=70010000016833&lang=es",
+    "usa": "https://api.ec.nintendo.com/v1/price?country=US&ids=70010000016833&lang=en"
+  },
+  "ranking": {
+    "parameters": ["count", "offset"],
+    "arg": "https://ec.nintendo.com/api/AR/es/search/ranking?count=10&offset=0",
+    "usa": "https://ec.nintendo.com/api/US/en/search/ranking?count=10&offset=0"
+  }
+}
